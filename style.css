@@ -1,0 +1,62 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif; 
+	background-image: url(dk.jpg);
+}
+header{
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	margin-top: 35px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	transition: 0.5s;
+	margin: 5px;
+	font-size: 12px;
+	font-weight: bold; 
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.container{
+	max-width: 700px;
+	margin: auto;
+	background:;
+	overflow: auto;
+}
+.container p{
+	font-size: 50px;
+	padding: 10px;
+	font-size: bold;
+	color: #fff;
+}
+.gallery{
+	margin: auto;
+	float: left;
+	width: 300px;
+}
+.gallery p{
+	font-size: 15px;
+
+}
+.gallery img{
+	width: 100%;
+	height: auto;
+}
+.desc{
+	padding: 15px;
+	text-align: center;
+}
